@@ -1,33 +1,33 @@
-{
+56{
   "project_info": {
-    "project_number": "733459964198",
+    "project_number": "place your project number here",
     "project_id": "axo-bank",
     "storage_bucket": "axo-bank.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:733459964198:android:260ae9bd8d007ec16ce1e7",
+        "mobilesdk_app_id": "place your app id here",
         "android_client_info": {
           "package_name": "com.axxo"
         }
       },
       "oauth_client": [
         {
-          "client_id": "733459964198-pmk0jnl10f394t0jj93rhu4n4ovuqc1j.apps.googleusercontent.com",
+          "client_id": "place your client id here",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyD36BQsENgDMpNZ42_UumsEbj6npX9bivs"
+          "current_key": "place your api key here"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "733459964198-pmk0jnl10f394t0jj93rhu4n4ovuqc1j.apps.googleusercontent.com",
+              "client_id": "place your client id here",
               "client_type": 3
             }
           ]
