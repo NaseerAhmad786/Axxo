@@ -1,5 +1,5 @@
 export const sendPushNotification = async (token, title, body) => {
-    const FIREBASE_API_KEY = "AAAAqsWe4SY:APA91bG5T5gepMvg2Dh8NeYi2KG1AK9ACOYA22Qsmw-cbgtfXHYfJFMEF7aNViQDAw0ePEtYcm3hHvUBI8FpsWMEj2UFZ7WBSyEhU_HTguaw-pTIeLWR1g_4y92KmhUiK0NiHRU8LXIs";
+    const FIREBASE_API_KEY = "plesae add your firebase api key";
   
     const message = {
       registration_ids: [token],
