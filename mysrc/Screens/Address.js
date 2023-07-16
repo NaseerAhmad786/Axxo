@@ -59,7 +59,7 @@ const Address = () => {
           { enableHighAccuracy: true, timeout: 15000, maximumAge: 10000 }
       );
     
-      fetch(`https://api.mapbox.com/geocoding/v5/mapbox.places/${longitude},${latitude}.json?access_token=pk.eyJ1IjoibmFzZWVyMTIiLCJhIjoiY2xqNHhodzkyMDNwazNkdDBldTJ2aHBsZSJ9.HVXT9CLTvyUByo4vkG7X0g`)
+      fetch(`https://api.mapbox.com/geocoding/v5/mapbox.places/${longitude},${latitude}.json?access_token=${"yourapikey"}`)
       .then((response) => response.json())
       .then((responseJson) => {
         const placeName = responseJson.features[0].place_name;
